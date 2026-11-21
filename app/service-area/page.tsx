@@ -6,7 +6,7 @@ import { SITE } from '@/lib/siteData'
 export const metadata: Metadata = {
   title: 'Service Area – Rapid City & Nearby Communities',
   description:
-    'Black Hills Euro serves Rapid City and nearby communities within about 25 miles — including Box Elder, Summerset, Blackhawk, Piedmont, Rapid Valley, and New Underwood. After-hours European maintenance and diagnostics.',
+    'Black Hills Euro serves Rapid City and nearby communities within about 25 miles — including Box Elder, Summerset, Blackhawk, Piedmont, Rapid Valley, and New Underwood. Mobile European maintenance and diagnostics by scheduled appointment.',
 }
 
 const AREA_DETAILS = [

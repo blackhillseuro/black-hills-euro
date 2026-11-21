@@ -6,14 +6,14 @@ import { SITE } from '@/lib/siteData'
 export const metadata: Metadata = {
   title: 'About – Black Hills Euro',
   description:
-    'Black Hills Euro provides after-hours European maintenance and diagnostics in Rapid City, SD. We work evenings and weekends, come to your location, and specialize exclusively in European vehicles.',
+    'Black Hills Euro provides mobile European maintenance and diagnostics in Rapid City, SD. Service by scheduled appointment at your location, specializing exclusively in European vehicles.',
 }
 
 const HOW_WE_OPERATE = [
   {
     icon: <Clock size={22} />,
-    title: 'We Work When You\'re Free',
-    body: 'Monday through Friday 4–9 PM. Weekends 9 AM–5 PM. You don\'t have to take time off work or rearrange your week to get your car fixed.',
+    title: 'By Appointment, at Your Location',
+    body: 'Service is by scheduled appointment only. Call or text to arrange a time, and we come to your home, office, or wherever the car is parked.',
   },
   {
     icon: <Wrench size={22} />,
@@ -31,7 +31,7 @@ const WHY_US = [
   'European vehicles only — the right tools, fluids, and parts for each platform',
   'Factory-level diagnostic tools for every module, not just generic fault codes',
   'Manufacturer-spec fluids — correct grade and viscosity for your engine',
-  'Evenings and weekends — no need to take time off work',
+  'Service by scheduled appointment — call or text to arrange a time',
   'We come to your home or office within 25 miles of Rapid City',
   'Straight quote before any work starts',
 ]
@@ -47,7 +47,7 @@ export default function AboutPage() {
             European Auto Repair That Works Around Your Life
           </h1>
           <p className="text-[#8a8a8a] text-lg max-w-2xl leading-relaxed">
-            Black Hills Euro is an after-hours maintenance and diagnostics service for European vehicles in Rapid City, South Dakota. We started in 2024 to give local drivers a better option than the dealership or a general shop — one that comes to them, on their schedule.
+            Black Hills Euro is a mobile maintenance and diagnostics service for European vehicles in Rapid City, South Dakota. We started in 2024 to give local drivers a better option than the dealership or a general shop — one that comes to them, by appointment.
           </p>
         </div>
       </section>
@@ -64,7 +64,7 @@ export default function AboutPage() {
                   If you own a BMW, Audi, or Mercedes-Benz in Rapid City, your options are limited. The dealership is expensive and slow. A routine service can mean a full day out of your week. A general shop is faster, but European cars have specific oil grades, battery coding requirements, and electronics that most shops aren't set up for.
                 </p>
                 <p>
-                  Black Hills Euro is the third option. We come to wherever your car is parked, we work evenings and weekends so you don't have to adjust your schedule, and we focus exclusively on European vehicles so we have the right tools for the job.
+                  Black Hills Euro is the third option. We come to wherever your car is parked, by scheduled appointment, so you don't have to plan your day around a shop, and we focus exclusively on European vehicles so we have the right tools for the job.
                 </p>
                 <p>
                   No waiting room. No drop-off. No half-day appointment on a Tuesday.
@@ -126,11 +126,11 @@ export default function AboutPage() {
             {[
               {
                 title: 'Working Professionals',
-                desc: 'We show up after 4 PM on weekdays. You don\'t have to leave work early, take PTO, or arrange a ride home from the shop.',
+                desc: 'We come to your home or office, so you don\'t have to leave work early, take PTO, or arrange a ride home from the shop.',
               },
               {
                 title: 'Military Families',
-                desc: 'Box Elder and the Ellsworth AFB corridor is part of our service area. Evening and weekend availability fits irregular schedules.',
+                desc: 'Box Elder and the Ellsworth AFB corridor is part of our service area. Scheduling by appointment makes it easier to work around irregular schedules.',
               },
               {
                 title: 'Anyone Who Values Their Time',

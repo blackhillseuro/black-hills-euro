@@ -11,7 +11,7 @@ export default function CallbackForm() {
       <div className="card text-center py-10">
         <div className="text-gold text-2xl font-bold mb-2">Got it.</div>
         <p className="text-[#ccc] text-sm leading-relaxed">
-          We received your request and will reach out within a few hours during business hours.
+          We received your request and will reach out as soon as we can.
         </p>
       </div>
     )
@@ -108,7 +108,7 @@ export default function CallbackForm() {
       </button>
 
       <p className="text-[#555] text-xs text-center">
-        We typically respond within a few hours during business hours.
+        We will get back to you as soon as we can to arrange a time.
       </p>
     </form>
   )

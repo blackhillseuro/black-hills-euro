@@ -4,9 +4,9 @@ import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
 
 export const metadata: Metadata = {
-  title: 'After-Hours BMW Maintenance & Diagnostics – Rapid City, SD',
+  title: 'Mobile BMW Maintenance & Diagnostics – Rapid City, SD',
   description:
-    'After-hours BMW maintenance and diagnostics in Rapid City, SD. Oil service, brakes, battery coding, ISTA diagnostics, and more. BMW specialist — we come to you.',
+    'Mobile BMW maintenance and diagnostics in Rapid City, SD. Oil service, brakes, battery coding, ISTA diagnostics, and more. BMW specialist — we come to you.',
 }
 
 const BMW_SERVICES = [
@@ -60,7 +60,7 @@ export default function BMWRepairPage() {
         <div className="max-w-7xl mx-auto">
           <span className="section-label">BMW Specialist</span>
           <h1 className="section-title max-w-2xl mb-4">
-            After-Hours BMW Service in Rapid City, SD
+            Mobile BMW Service in Rapid City, SD
           </h1>
           <p className="text-[#8a8a8a] text-lg max-w-2xl leading-relaxed">
             Proper BMW service without the dealer visit. We use BMW-spec products, ISTA-compatible diagnostics, and arrive wherever your car is parked in Rapid City and nearby communities.
@@ -101,7 +101,7 @@ export default function BMWRepairPage() {
                   Black Hills Euro works exclusively on European vehicles. We stock BMW LL-spec oil, carry compatible AGM batteries, and use diagnostic tools that communicate with every module in your car — from the DME to the body control units.
                 </p>
                 <p>
-                  Whether you're at 30,000 miles or 150,000 miles, we bring the right knowledge and the right tools to your location. No appointment lag. No loaner car needed.
+                  Whether you're at 30,000 miles or 150,000 miles, we bring the right knowledge and the right tools to your location. No drop-off. No loaner car needed.
                 </p>
               </div>
 

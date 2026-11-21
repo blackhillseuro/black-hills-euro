@@ -5,9 +5,9 @@ import ServiceCard from '@/components/ServiceCard'
 import { SERVICES, SITE } from '@/lib/siteData'
 
 export const metadata: Metadata = {
-  title: 'Services – After-Hours European Maintenance & Diagnostics',
+  title: 'Services – Mobile European Maintenance & Diagnostics',
   description:
-    'After-hours European maintenance and diagnostics in Rapid City, SD. Oil changes, brakes, diagnostics, battery coding, suspension, pre-purchase inspection, and more for BMW, Mercedes, Audi, VW, Porsche, Volvo, and Land Rover.',
+    'Mobile European maintenance and diagnostics in Rapid City, SD. Oil changes, brakes, diagnostics, battery coding, suspension, pre-purchase inspection, and more for BMW, Mercedes, Audi, VW, Porsche, Volvo, and Land Rover.',
 }
 
 const INCLUDED = [
@@ -16,7 +16,7 @@ const INCLUDED = [
   'OEM-quality parts on every job',
   'Honest about what can and cannot be done on-site',
   'Upfront pricing before we start',
-  'Same-week scheduling available',
+  'Service by scheduled appointment',
   'Euro-spec fluids and products only',
   'Full service documentation provided',
 ]
@@ -29,7 +29,7 @@ export default function ServicesPage() {
       <section className="bg-[#0d0d0d] border-b border-[#2a2a2a] py-20 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           <span className="section-label">What We Offer</span>
-          <h1 className="section-title max-w-2xl mb-4">After-Hours European Service</h1>
+          <h1 className="section-title max-w-2xl mb-4">Mobile European Service</h1>
           <p className="text-[#8a8a8a] text-lg max-w-2xl leading-relaxed">
             Full-service European auto repair without the shop visit. We handle maintenance, diagnostics, and common repairs at your home or office in Rapid City and nearby communities.
           </p>

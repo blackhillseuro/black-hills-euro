@@ -20,7 +20,7 @@ Then open http://localhost:3000 in your browser.
 - `SITE.smsHref` — for the "Text Us" buttons
 - `SITE.email` and `SITE.emailHref` — your real email
 - `SITE.url` — your real domain (for SEO/sitemap)
-- `SITE.hours` — your actual business hours
+- `SITE.appointments` — appointment / availability message (no fixed hours)
 - `SERVICE_AREAS` — add or remove cities
 - `SERVICES` — edit service names and descriptions
 
@@ -80,12 +80,12 @@ export const SERVICE_AREAS = [
 ]
 ```
 
-### Change business hours
+### Change the appointments message
+The site does not publish fixed hours. To change the availability wording:
 ```ts
-hours: {
-  weekdays: 'Mon – Fri: 8:00 AM – 5:00 PM',
-  saturday: 'Sat: Closed',
-  sunday: 'Sun: Closed',
+appointments: {
+  label: 'Appointments',
+  message: 'Service by scheduled appointment only. Call or text to arrange a time.',
 },
 ```
 

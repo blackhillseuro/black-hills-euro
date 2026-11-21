@@ -4,9 +4,9 @@ import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
 
 export const metadata: Metadata = {
-  title: 'After-Hours Audi, VW, Porsche, Volvo & Euro Service – Rapid City, SD',
+  title: 'Mobile Audi, VW, Porsche, Volvo & Euro Service – Rapid City, SD',
   description:
-    'After-hours Audi, Volkswagen, Porsche, Volvo, and Land Rover maintenance and diagnostics in Rapid City, SD. VCDS and OE-level diagnostics. We come to you in Rapid City and nearby communities.',
+    'Mobile Audi, Volkswagen, Porsche, Volvo, and Land Rover maintenance and diagnostics in Rapid City, SD. VCDS and OE-level diagnostics. We come to you in Rapid City and nearby communities.',
 }
 
 const EURO_BRANDS = [
@@ -81,7 +81,7 @@ export default function EuroRepairPage() {
         <div className="max-w-7xl mx-auto">
           <span className="section-label">European Specialist</span>
           <h1 className="section-title max-w-3xl mb-4">
-            After-Hours Audi, VW, Porsche, Volvo &amp; Land Rover Service – Rapid City, SD
+            Mobile Audi, VW, Porsche, Volvo &amp; Land Rover Service – Rapid City, SD
           </h1>
           <p className="text-[#8a8a8a] text-lg max-w-2xl leading-relaxed">
             Beyond BMW and Mercedes, we specialize in the full spectrum of European makes. OE-level diagnostics, manufacturer-spec fluids, and on-site service in Rapid City and nearby communities.

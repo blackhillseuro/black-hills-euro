@@ -3,9 +3,9 @@ import { Phone, MessageSquare, Mail, Clock, MapPin, AlertCircle } from 'lucide-r
 import { SITE, SERVICE_AREAS } from '@/lib/siteData'
 
 export const metadata: Metadata = {
-  title: 'Contact – Schedule After-Hours Euro Service',
+  title: 'Contact – Schedule Mobile Euro Service',
   description:
-    'Contact Black Hills Euro to schedule after-hours European maintenance and diagnostics in Rapid City, SD. Call or text to book. We come to your home or office.',
+    'Contact Black Hills Euro to schedule mobile European maintenance and diagnostics in Rapid City, SD. Service by scheduled appointment. Call or text to book. We come to your home or office.',
 }
 
 export default function ContactPage() {
@@ -36,7 +36,7 @@ export default function ContactPage() {
                 <h2 className="text-2xl font-bold text-white">Call or Text</h2>
               </div>
               <p className="text-[#777] text-sm leading-relaxed">
-                Calling or texting gets you a same-day response in most cases. Let us know your vehicle make, model, year, and what's happening — we'll give you a straight answer.
+                Calling or texting is the quickest way to reach us. Let us know your vehicle make, model, year, and what's happening — we'll give you a straight answer.
               </p>
               <div className="flex flex-col gap-3">
                 <a
@@ -72,17 +72,13 @@ export default function ContactPage() {
                 </a>
               </div>
 
-              {/* Hours */}
+              {/* Appointments */}
               <div className="card">
                 <div className="flex items-center gap-3 mb-3">
                   <Clock size={18} className="text-gold shrink-0" />
-                  <h3 className="text-white font-semibold">Hours</h3>
+                  <h3 className="text-white font-semibold">{SITE.appointments.label}</h3>
                 </div>
-                <ul className="space-y-2 text-[#777] text-sm">
-                  <li>{SITE.hours.weekdays}</li>
-                  <li>{SITE.hours.saturday}</li>
-                  <li>{SITE.hours.sunday}</li>
-                </ul>
+                <p className="text-[#777] text-sm leading-relaxed">{SITE.appointments.message}</p>
               </div>
 
               {/* Location */}

@@ -5,7 +5,7 @@
 
 export const SITE = {
   name: 'Black Hills Euro',
-  tagline: 'After-Hours European Maintenance & Diagnostics · Rapid City, SD',
+  tagline: 'Mobile European Maintenance & Diagnostics · Rapid City, SD',
 
   phone: '(605) 646-2102',
   phoneHref: 'tel:+16056462102',
@@ -21,11 +21,10 @@ export const SITE = {
   city: 'Rapid City',
   state: 'SD',
 
-  // After-work mobile service — Mon–Fri evenings, weekends during the day
-  hours: {
-    weekdays: 'Mon – Fri: 4:00 PM – 9:00 PM',
-    saturday: 'Sat: 9:00 AM – 5:00 PM',
-    sunday:   'Sun: 9:00 AM – 5:00 PM',
+  // No fixed operating hours. Availability varies, so service is by appointment only.
+  appointments: {
+    label: 'Appointments',
+    message: 'Service by scheduled appointment only. Call or text to arrange a time.',
   },
 
   // Used in structured data and footer copy
@@ -123,9 +122,9 @@ export const HOME_FAQS = [
       "BMW, Mercedes-Benz, Audi, Volkswagen, Porsche, Volvo, and Land Rover. That's it. We don't work on domestic or Asian vehicles. Staying focused on European makes is how we stay good at it.",
   },
   {
-    question: 'Is after-hours service more expensive than a shop?',
+    question: 'Is mobile service more expensive than a shop?',
     answer:
-      "No, and often it's less. We don't carry the overhead of a fixed shop, so our rates reflect that. Factor in the rental car, the Uber, or the half-day you'd spend at a dealer, and after-hours service at your location usually wins on total cost.",
+      "No, and often it's less. We don't carry the overhead of a fixed shop, so our rates reflect that. Factor in the rental car, the Uber, or the half-day you'd spend at a dealer, and mobile service at your location usually wins on total cost.",
   },
   {
     question: 'How do I know what the repair will cost?',

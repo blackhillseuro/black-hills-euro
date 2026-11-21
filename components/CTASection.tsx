@@ -8,7 +8,7 @@ interface CTASectionProps {
 
 export default function CTASection({
   headline = 'Ready to Book?',
-  subheadline = 'Call or text to schedule service at your location. Most jobs can be booked same-week.',
+  subheadline = 'Call or text to schedule an appointment at your location.',
 }: CTASectionProps) {
   return (
     <section className="bg-[#141414] border-y border-[#2a2a2a] py-20">

@@ -6,9 +6,9 @@ import CallbackForm from '@/components/CallbackForm'
 import { SITE, SERVICES, SERVICE_AREAS, HOME_FAQS } from '@/lib/siteData'
 
 export const metadata: Metadata = {
-  title: 'Black Hills Euro – After-Hours European Maintenance & Diagnostics | Rapid City, SD',
+  title: 'Black Hills Euro – Mobile European Maintenance & Diagnostics | Rapid City, SD',
   description:
-    'After-hours European maintenance and diagnostics in Rapid City, SD. BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover. We come to your home or office. Call or text to book.',
+    'Mobile European maintenance and diagnostics in Rapid City, SD. BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover. We come to your home or office. Call or text to book.',
 }
 
 const schemaData = {
@@ -16,7 +16,7 @@ const schemaData = {
   '@type': ['LocalBusiness', 'AutoRepair'],
   name: 'Black Hills Euro',
   description:
-    'After-hours European maintenance and diagnostics serving Rapid City and nearby communities. BMW, Mercedes-Benz, Audi, Volkswagen, Porsche, Volvo, and Land Rover.',
+    'Mobile European maintenance and diagnostics serving Rapid City and nearby communities, by scheduled appointment. BMW, Mercedes-Benz, Audi, Volkswagen, Porsche, Volvo, and Land Rover.',
   telephone: SITE.phone,
   url: SITE.url,
   foundingDate: SITE.founded,
@@ -25,20 +25,7 @@ const schemaData = {
     name: area,
     containedInPlace: { '@type': 'State', name: 'South Dakota' },
   })),
-  openingHoursSpecification: [
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      opens: '16:00',
-      closes: '21:00',
-    },
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Saturday', 'Sunday'],
-      opens: '09:00',
-      closes: '17:00',
-    },
-  ],
+  // No openingHoursSpecification: service is by scheduled appointment only.
 }
 
 const TRUST_ITEMS = [
@@ -87,10 +74,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <span className="section-label">Rapid City, SD</span>
           <h1 className="section-title max-w-2xl mb-5">
-            After-Hours European Maintenance & Diagnostics
+            Mobile European Maintenance & Diagnostics
           </h1>
           <p className="text-[#8a8a8a] text-lg max-w-xl leading-relaxed mb-10">
-            BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover. Factory-correct service at your home or office in Rapid City and nearby communities — done on evenings and weekends so you don't lose a workday.
+            BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover. Factory-correct service at your home or office in Rapid City and nearby communities — by scheduled appointment, without a trip to the shop.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href={SITE.phoneHref} className="btn-primary text-base py-4 px-8">
@@ -189,12 +176,8 @@ export default function HomePage() {
               </ul>
             </div>
             <div className="card">
-              <p className="text-gold text-xs font-semibold tracking-widest uppercase mb-3">Hours</p>
-              <ul className="space-y-1.5 text-[#777] text-sm">
-                <li>{SITE.hours.weekdays}</li>
-                <li>{SITE.hours.saturday}</li>
-                <li>{SITE.hours.sunday}</li>
-              </ul>
+              <p className="text-gold text-xs font-semibold tracking-widest uppercase mb-3">{SITE.appointments.label}</p>
+              <p className="text-[#777] text-sm leading-relaxed">{SITE.appointments.message}</p>
             </div>
           </div>
         </div>
@@ -231,7 +214,7 @@ export default function HomePage() {
             <span className="section-label">Not Ready to Call?</span>
             <h2 className="section-title">Request a Call Back</h2>
             <p className="section-subtitle">
-              Fill this out and we will reach out within a few hours during business hours.
+              Fill this out and we will reach out as soon as we can.
             </p>
           </div>
           <CallbackForm />

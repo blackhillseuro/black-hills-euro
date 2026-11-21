@@ -23,7 +23,7 @@ export default function Footer() {
               <span className="block text-xs font-semibold text-gold tracking-[0.25em] uppercase">Euro</span>
             </div>
             <p className="text-[#666] text-sm leading-relaxed">
-              After-hours European maintenance and diagnostics for BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover owners in Rapid City and nearby communities.
+              Mobile European maintenance and diagnostics for BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover owners in Rapid City and nearby communities.
             </p>
           </div>
 
@@ -69,11 +69,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2.5 text-[#666] text-sm">
                 <Clock size={14} className="mt-0.5 shrink-0" />
-                <div className="space-y-1">
-                  <div>{SITE.hours.weekdays}</div>
-                  <div>{SITE.hours.saturday}</div>
-                  <div>{SITE.hours.sunday}</div>
-                </div>
+                <span>{SITE.appointments.message}</span>
               </li>
               <li className="flex items-start gap-2.5 text-[#666] text-sm">
                 <MapPin size={14} className="mt-0.5 shrink-0" />
@@ -88,7 +84,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Black Hills Euro. All rights reserved.
           </p>
           <p className="text-[#444] text-xs">
-            After-hours European maintenance &amp; diagnostics &middot; Rapid City, SD
+            Mobile European maintenance &amp; diagnostics &middot; Rapid City, SD
           </p>
         </div>
       </div>

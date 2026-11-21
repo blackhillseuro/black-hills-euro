@@ -4,9 +4,9 @@ import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
 
 export const metadata: Metadata = {
-  title: 'After-Hours Mercedes-Benz Maintenance & Diagnostics – Rapid City, SD',
+  title: 'Mobile Mercedes-Benz Maintenance & Diagnostics – Rapid City, SD',
   description:
-    'After-hours Mercedes-Benz maintenance and diagnostics in Rapid City, SD. Service A & B, brakes, XENTRY diagnostics, Airmatic, and more. We come to you — no dealership needed.',
+    'Mobile Mercedes-Benz maintenance and diagnostics in Rapid City, SD. Service A & B, brakes, XENTRY diagnostics, Airmatic, and more. We come to you — no dealership needed.',
 }
 
 const MB_SERVICES = [
@@ -60,7 +60,7 @@ export default function MercedesRepairPage() {
         <div className="max-w-7xl mx-auto">
           <span className="section-label">Mercedes-Benz Specialist</span>
           <h1 className="section-title max-w-2xl mb-4">
-            After-Hours Mercedes-Benz Service in Rapid City, SD
+            Mobile Mercedes-Benz Service in Rapid City, SD
           </h1>
           <p className="text-[#8a8a8a] text-lg max-w-2xl leading-relaxed">
             Factory-correct service for your Mercedes at your location. We use genuine Mercedes-spec oil, OEM-quality parts, and XENTRY-level diagnostics — without the dealership markup or wait.
@@ -123,7 +123,7 @@ export default function MercedesRepairPage() {
 
       <CTASection
         headline="Schedule Your Mercedes Service"
-        subheadline="We come to your home or office. Same-week scheduling available for most services in Rapid City and nearby communities."
+        subheadline="We come to your home or office in Rapid City and nearby communities. Call or text to schedule an appointment."
       />
     </>
   )

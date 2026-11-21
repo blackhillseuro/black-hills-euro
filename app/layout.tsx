@@ -10,11 +10,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | After-Hours European Maintenance & Diagnostics – Rapid City, SD`,
+    default: `${SITE.name} | Mobile European Maintenance & Diagnostics – Rapid City, SD`,
     template: `%s | ${SITE.name}`,
   },
   description:
-    'After-hours European maintenance and diagnostics in Rapid City, SD. BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover. We come to your home or office.',
+    'Mobile European maintenance and diagnostics in Rapid City, SD. BMW, Mercedes-Benz, Audi, VW, Porsche, Volvo, and Land Rover. We come to your home or office.',
   metadataBase: new URL(SITE.url),
   openGraph: {
     type: 'website',
