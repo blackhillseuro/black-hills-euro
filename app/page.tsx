@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { CheckCircle, Phone, MessageSquare, MapPin } from 'lucide-react'
 import CTASection from '@/components/CTASection'
 import FAQSection from '@/components/FAQSection'
@@ -189,10 +190,13 @@ export default function HomePage() {
           <div className="card">
             <p className="text-gold text-xs font-semibold tracking-widest uppercase mb-4">About the Owner</p>
             <div className="flex flex-col sm:flex-row gap-6 items-start">
-              {/* TODO: Replace placeholder circle with a real photo */}
-              <div className="w-20 h-20 rounded-full bg-[#1a1a1a] border border-[#2a2a2a] shrink-0 flex items-center justify-center">
-                <span className="text-[#444] text-xs">Photo</span>
-              </div>
+              <Image
+                src="/images/jay-valentino.webp"
+                alt="Jay Valentino, owner and technician at Black Hills Euro"
+                width={160}
+                height={160}
+                className="w-20 h-20 rounded-full object-cover border border-[#2a2a2a] shrink-0"
+              />
               <div>
                 <h3 className="text-white font-bold text-lg mb-1">Jay Valentino</h3>
                 <p className="text-gold text-xs font-semibold tracking-wider uppercase mb-3">
