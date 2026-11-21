@@ -4,7 +4,7 @@ import CTASection from '@/components/CTASection'
 import { SITE } from '@/lib/siteData'
 
 export const metadata: Metadata = {
-  title: 'About – Black Hills Euro',
+  title: 'About',
   description:
     'Black Hills Euro provides mobile European maintenance and diagnostics in Rapid City, SD. Service by scheduled appointment at your location, specializing exclusively in European vehicles.',
 }
